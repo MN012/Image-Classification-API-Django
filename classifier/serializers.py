@@ -9,4 +9,5 @@ class FileSerializer(serializers.ModelSerializer):
         read_only_fields = ('predicted_class', 'confidence_score','timestamp')
 
 
-
+class MachineLearningModelSerializer:
+    pass
